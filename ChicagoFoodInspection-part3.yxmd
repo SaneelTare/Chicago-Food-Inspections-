@@ -1,0 +1,1737 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="1062" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:ChicagoFoodInspection-part3-output|||select ChicagoFoodInspectionData_business.RecordID,
+	ChicagoFoodInspectionData_business.ID,
+	ChicagoFoodInspectionData_business.[LICENSE ID],
+	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],
+	ChicagoFoodInspectionData_business.[SITE NUMBER],
+	ChicagoFoodInspectionData_business.[LEGAL NAME],
+	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],
+	ChicagoFoodInspectionData_business.ADDRESS,
+	ChicagoFoodInspectionData_business.CITY,
+	ChicagoFoodInspectionData_business.STATE,
+	ChicagoFoodInspectionData_business.[ZIP CODE],
+	ChicagoFoodInspectionData_business.WARD,
+	ChicagoFoodInspectionData_business.PRECINCT,
+	ChicagoFoodInspectionData_business.[WARD PRECINCT],
+	ChicagoFoodInspectionData_business.[POLICE DISTRICT],
+	ChicagoFoodInspectionData_business.[LICENSE CODE],
+	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],
+	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],
+	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],
+	ChicagoFoodInspectionData_business.[LICENSE NUMBER],
+	ChicagoFoodInspectionData_business.[APPLICATION TYPE],
+	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],
+	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],
+	ChicagoFoodInspectionData_business.[PAYMENT DATE],
+	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],
+	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],
+	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],
+	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],
+	ChicagoFoodInspectionData_business.[DATE ISSUED],
+	ChicagoFoodInspectionData_business.[LICENSE STATUS],
+	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],
+	ChicagoFoodInspectionData_business.SSA,
+	ChicagoFoodInspectionData_business.LATITUDE,
+	ChicagoFoodInspectionData_business.LONGITUDE,
+	ChicagoFoodInspectionData_business.LOCATION,
+	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,
+	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,
+	ChicagoFoodInspectionData_business.DATE_ISSUED 
+from ChicagoFoodInspectionData_business</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:ChicagoFoodInspection-part3-output
+Query=select ChicagoFoodInspection...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="Int32" />
+            <Field name="ID" size="16" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="String" />
+            <Field name="LICENSE ID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="Int32" />
+            <Field name="ACCOUNT NUMBER" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="Int32" />
+            <Field name="SITE NUMBER" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="Int16" />
+            <Field name="LEGAL NAME" size="117" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="V_String" />
+            <Field name="DOING BUSINESS AS NAME" size="128" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="V_String" />
+            <Field name="ADDRESS" size="80" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="V_String" />
+            <Field name="CITY" size="30" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="V_String" />
+            <Field name="STATE" size="2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="String" />
+            <Field name="ZIP CODE" size="5" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="String" />
+            <Field name="WARD" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="Int16" />
+            <Field name="PRECINCT" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="Int16" />
+            <Field name="WARD PRECINCT" size="6" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="String" />
+            <Field name="POLICE DISTRICT" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="Int16" />
+            <Field name="LICENSE CODE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="Int16" />
+            <Field name="LICENSE DESCRIPTION" size="60" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="V_String" />
+            <Field name="BUSINESS ACTIVITY ID" size="81" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="V_String" />
+            <Field name="BUSINESS ACTIVITY" size="735" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="V_String" />
+            <Field name="LICENSE NUMBER" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="Int32" />
+            <Field name="APPLICATION TYPE" size="6" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="String" />
+            <Field name="APPLICATION CREATED DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="V_String" />
+            <Field name="APPLICATION REQUIREMENTS COMPLETE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="String" />
+            <Field name="PAYMENT DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="String" />
+            <Field name="CONDITIONAL APPROVAL" size="1" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="String" />
+            <Field name="LICENSE TERM START DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="String" />
+            <Field name="LICENSE TERM EXPIRATION DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="String" />
+            <Field name="LICENSE APPROVED FOR ISSUANCE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="String" />
+            <Field name="DATE ISSUED" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="String" />
+            <Field name="LICENSE STATUS" size="3" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="String" />
+            <Field name="LICENSE STATUS CHANGE DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="V_String" />
+            <Field name="SSA" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="Int16" />
+            <Field name="LATITUDE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="Double" />
+            <Field name="LONGITUDE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="Double" />
+            <Field name="LOCATION" size="40" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="String" />
+            <Field name="LICENSE_TERM_START_DATE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="Date" />
+            <Field name="LICENSE_TERM_EXPIRATION_DATE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="Date" />
+            <Field name="DATE_ISSUED" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=damg7370;PWD=__EncPwd1__;DATABASE=ChicagoFoodInspection;SERVER=localhost|||select ChicagoFoodInspectionData_business.RecordID,&#xA;	ChicagoFoodInspectionData_business.ID,&#xA;	ChicagoFoodInspectionData_business.[LICENSE ID],&#xA;	ChicagoFoodInspectionData_business.[ACCOUNT NUMBER],&#xA;	ChicagoFoodInspectionData_business.[SITE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[LEGAL NAME],&#xA;	ChicagoFoodInspectionData_business.[DOING BUSINESS AS NAME],&#xA;	ChicagoFoodInspectionData_business.ADDRESS,&#xA;	ChicagoFoodInspectionData_business.CITY,&#xA;	ChicagoFoodInspectionData_business.STATE,&#xA;	ChicagoFoodInspectionData_business.[ZIP CODE],&#xA;	ChicagoFoodInspectionData_business.WARD,&#xA;	ChicagoFoodInspectionData_business.PRECINCT,&#xA;	ChicagoFoodInspectionData_business.[WARD PRECINCT],&#xA;	ChicagoFoodInspectionData_business.[POLICE DISTRICT],&#xA;	ChicagoFoodInspectionData_business.[LICENSE CODE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE DESCRIPTION],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY ID],&#xA;	ChicagoFoodInspectionData_business.[BUSINESS ACTIVITY],&#xA;	ChicagoFoodInspectionData_business.[LICENSE NUMBER],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION TYPE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION CREATED DATE],&#xA;	ChicagoFoodInspectionData_business.[APPLICATION REQUIREMENTS COMPLETE],&#xA;	ChicagoFoodInspectionData_business.[PAYMENT DATE],&#xA;	ChicagoFoodInspectionData_business.[CONDITIONAL APPROVAL],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM START DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE TERM EXPIRATION DATE],&#xA;	ChicagoFoodInspectionData_business.[LICENSE APPROVED FOR ISSUANCE],&#xA;	ChicagoFoodInspectionData_business.[DATE ISSUED],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS],&#xA;	ChicagoFoodInspectionData_business.[LICENSE STATUS CHANGE DATE],&#xA;	ChicagoFoodInspectionData_business.SSA,&#xA;	ChicagoFoodInspectionData_business.LATITUDE,&#xA;	ChicagoFoodInspectionData_business.LONGITUDE,&#xA;	ChicagoFoodInspectionData_business.LOCATION,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_START_DATE,&#xA;	ChicagoFoodInspectionData_business.LICENSE_TERM_EXPIRATION_DATE,&#xA;	ChicagoFoodInspectionData_business.DATE_ISSUED &#xA;from ChicagoFoodInspectionData_business" type="Date" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="606" y="1062" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="RecordID" selected="True" />
+            <SelectField field="ID" selected="True" />
+            <SelectField field="LICENSE ID" selected="True" rename="LICENSE_ID" />
+            <SelectField field="ACCOUNT NUMBER" selected="True" rename="ACCOUNT_NUMBER" />
+            <SelectField field="SITE NUMBER" selected="True" rename="SITE_NUMBER" />
+            <SelectField field="LEGAL NAME" selected="True" rename="LEGAL_NAME" />
+            <SelectField field="DOING BUSINESS AS NAME" selected="True" rename="DOING_BUSINESS_AS_NAME" />
+            <SelectField field="ADDRESS" selected="True" />
+            <SelectField field="CITY" selected="True" />
+            <SelectField field="STATE" selected="True" />
+            <SelectField field="ZIP CODE" selected="True" rename="ZIP_CODE" />
+            <SelectField field="WARD" selected="True" />
+            <SelectField field="PRECINCT" selected="True" />
+            <SelectField field="WARD PRECINCT" selected="True" rename="WARD_PRECINCT" />
+            <SelectField field="POLICE DISTRICT" selected="True" rename="POLICE_DISTRICT" />
+            <SelectField field="LICENSE CODE" selected="True" rename="LICENSE_CODE" />
+            <SelectField field="LICENSE DESCRIPTION" selected="True" rename="LICENSE_DESCRIPTION" />
+            <SelectField field="BUSINESS ACTIVITY ID" selected="True" rename="BUSINESS_ACTIVITY_ID" />
+            <SelectField field="BUSINESS ACTIVITY" selected="True" rename="BUSINESS_ACTIVITY" />
+            <SelectField field="LICENSE NUMBER" selected="True" rename="LICENSE_NUMBER" />
+            <SelectField field="APPLICATION TYPE" selected="True" rename="APPLICATION_TYPE" />
+            <SelectField field="APPLICATION CREATED DATE" selected="True" rename="APPLICATION_CREATED_DATE" />
+            <SelectField field="APPLICATION REQUIREMENTS COMPLETE" selected="True" rename="APPLICATION_REQUIREMENTS_COMPLETE" />
+            <SelectField field="PAYMENT DATE" selected="True" rename="PAYMENT_DATE" />
+            <SelectField field="CONDITIONAL APPROVAL" selected="True" rename="CONDITIONAL_APPROVAL" />
+            <SelectField field="LICENSE APPROVED FOR ISSUANCE" selected="True" rename="LICENSE_APPROVED_FOR_ISSUANCE" />
+            <SelectField field="LICENSE STATUS" selected="True" rename="LICENSE_STATUS" />
+            <SelectField field="LICENSE STATUS CHANGE DATE" selected="True" rename="LICENSE_STATUS_CHANGR_DATE" />
+            <SelectField field="SSA" selected="True" />
+            <SelectField field="LATITUDE" selected="True" />
+            <SelectField field="LONGITUDE" selected="True" />
+            <SelectField field="LOCATION" selected="True" />
+            <SelectField field="LICENSE_TERM_START_DATE" selected="True" />
+            <SelectField field="LICENSE_TERM_EXPIRATION_DATE" selected="True" />
+            <SelectField field="DATE_ISSUED" selected="True" />
+            <SelectField field="ZipCode" selected="False" rename="Zip_Code" />
+            <SelectField field="Police_Desctrict" selected="False" rename="Police_District" />
+            <SelectField field="License_number" selected="False" rename="License_Number" />
+            <SelectField field="Application_Created_Date_Out" selected="False" rename="Application_Created_Date" />
+            <SelectField field="Application_Requirements_Complete_Out" selected="False" rename="Application_Requirements" />
+            <SelectField field="Payment_Date_Out" selected="False" rename="Payment_Date" />
+            <SelectField field="License_Term_Start_Date_Out" selected="False" rename="License_Term_Start_Date" />
+            <SelectField field="License_Term_Expiration_Date_Out" selected="False" rename="License_Term_Expiration_Date" />
+            <SelectField field="License_Approved_For_Issuance_Out" selected="False" rename="License_Approved_For_Issuance_Date" />
+            <SelectField field="Date_Issued_Out" selected="False" rename="Date_Issued" />
+            <SelectField field="License_Status_Change_Date_Out" selected="False" rename="License_Status_Change_Date" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="750" y="1062" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="ID" />
+            <Field field="LICENSE_ID" />
+            <Field field="ACCOUNT_NUMBER" />
+            <Field field="SITE_NUMBER" />
+            <Field field="LEGAL_NAME" />
+            <Field field="DOING_BUSINESS_AS_NAME" />
+            <Field field="ADDRESS" />
+            <Field field="CITY" />
+            <Field field="STATE" />
+            <Field field="ZIP_CODE" />
+            <Field field="WARD" />
+            <Field field="PRECINCT" />
+            <Field field="WARD_PRECINCT" />
+            <Field field="POLICE_DISTRICT" />
+            <Field field="LICENSE_CODE" />
+            <Field field="LICENSE_DESCRIPTION" />
+            <Field field="BUSINESS_ACTIVITY_ID" />
+            <Field field="BUSINESS_ACTIVITY" />
+            <Field field="LICENSE_NUMBER" />
+            <Field field="APPLICATION_TYPE" />
+            <Field field="APPLICATION_CREATED_DATE" />
+            <Field field="APPLICATION_REQUIREMENTS_COMPLETE" />
+            <Field field="PAYMENT_DATE" />
+            <Field field="CONDITIONAL_APPROVAL" />
+            <Field field="LICENSE_APPROVED_FOR_ISSUANCE" />
+            <Field field="LICENSE_STATUS" />
+            <Field field="LICENSE_STATUS_CHANGR_DATE" />
+            <Field field="SSA" />
+            <Field field="LATITUDE" />
+            <Field field="LONGITUDE" />
+            <Field field="LOCATION" />
+            <Field field="LICENSE_TERM_START_DATE" />
+            <Field field="LICENSE_TERM_EXPIRATION_DATE" />
+            <Field field="DATE_ISSUED" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="906" y="1050" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>LicenseSK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1086" y="1050" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+            <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkflowDirectory" size="256" type="V_WString" />
+            <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFileName" size="256" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkflowDirectory = [Engine.WorkflowDirectory]
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1242" y="1050" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:ChicagoFoodInspection-part3-output|||dbo.Dim_Chicago_BusinessLicenses</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Append</OutputOption>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="LicenseSK" Dest="LicenseSK" />
+                <Field Source="ID" Dest="ID" />
+                <Field Source="LICENSE_ID" Dest="LICENSE_ID" />
+                <Field Source="ACCOUNT_NUMBER" Dest="ACCOUNT_NUMBER" />
+                <Field Source="SITE_NUMBER" Dest="SITE_NUMBER" />
+                <Field Source="LEGAL_NAME" Dest="LEGAL_NAME" />
+                <Field Source="DOING_BUSINESS_AS_NAME" Dest="DOING_BUSINESS_AS_NAME" />
+                <Field Source="ADDRESS" Dest="ADDRESS" />
+                <Field Source="CITY" Dest="CITY" />
+                <Field Source="STATE" Dest="STATE" />
+                <Field Source="ZIP_CODE" Dest="ZIP_CODE" />
+                <Field Source="WARD" Dest="WARD" />
+                <Field Source="PRECINCT" Dest="PRECINCT" />
+                <Field Source="WARD_PRECINCT" Dest="WARD_PRECINCT" />
+                <Field Source="POLICE_DISTRICT" Dest="POLICE_DISTRICT" />
+                <Field Source="LICENSE_CODE" Dest="LICENSE_CODE" />
+                <Field Source="LICENSE_DESCRIPTION" Dest="LICENSE_DESCRIPTION" />
+                <Field Source="BUSINESS_ACTIVITY_ID" Dest="BUSINESS_ACTIVITY_ID" />
+                <Field Source="BUSINESS_ACTIVITY" Dest="BUSINESS_ACTIVITY" />
+                <Field Source="LICENSE_NUMBER" Dest="LICENSE_NUMBER" />
+                <Field Source="APPLICATION_TYPE" Dest="APPLICATION_TYPE" />
+                <Field Source="APPLICATION_CREATED_DATE" Dest="APPLICATION_CREATED_DATE" />
+                <Field Source="APPLICATION_REQUIREMENTS_COMPLETE" Dest="APPLICATION_REQUIREMENTS_COMPLETE" />
+                <Field Source="PAYMENT_DATE" Dest="PAYMENT_DATE" />
+                <Field Source="CONDITIONAL_APPROVAL" Dest="CONDITIONAL_APPROVAL" />
+                <Field Source="LICENSE_APPROVED_FOR_ISSUANCE" Dest="LICENSE_APPROVED_FOR_ISSUANCE" />
+                <Field Source="LICENSE_STATUS" Dest="LICENSE_STATUS" />
+                <Field Source="LICENSE_STATUS_CHANGR_DATE" Dest="LICENSE_STATUS_CHANGE_DATE" />
+                <Field Source="SSA" Dest="SSA" />
+                <Field Source="LATITUDE" Dest="LATITUDE" />
+                <Field Source="LONGITUDE" Dest="LONGITUDE" />
+                <Field Source="LOCATION" Dest="LOCATION" />
+                <Field Source="LICENSE_TERM_START_DATE" Dest="LICENSE_TERM_START_DATE" />
+                <Field Source="LICENSE_TERM_EXPIRATION_DATE" Dest="LICENSE_TERM_EXPIRATION_DATE" />
+                <Field Source="DATE_ISSUED" Dest="DATE_ISSUED" />
+                <Field Source="DI_CreateDate" Dest="DI_CreateDate" />
+                <Field Source="DI_WorkflowDirectory" Dest="DI_WorkflowDirectory" />
+                <Field Source="DI_WorkflowFileName" Dest="DI_WorkflowFileName" />
+              </AppendMapping>
+            </AppendMap>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:ChicagoFoodInspection-part3-output
+Query=dbo.Dim_Chicago_BusinessLice...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1326" y="1062" width="228" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Dim_Chicago_BusinessLicenses</Text>
+          <Font name="Arial" size="9.75" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="101" y="437" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:ChicagoFoodInspection-part3-input|||select ChicagoFoodInspectionData.RecordID,
+	ChicagoFoodInspectionData.[Inspection ID],
+	ChicagoFoodInspectionData.[DBA Name],
+	ChicagoFoodInspectionData.[AKA Name],
+	ChicagoFoodInspectionData.[License #],
+	ChicagoFoodInspectionData.[Facility Type],
+	ChicagoFoodInspectionData.Risk,
+	ChicagoFoodInspectionData.Address,
+	ChicagoFoodInspectionData.City,
+	ChicagoFoodInspectionData.State,
+	ChicagoFoodInspectionData.Zip,
+	ChicagoFoodInspectionData.[Inspection Date],
+	ChicagoFoodInspectionData.[Inspection Type],
+	ChicagoFoodInspectionData.Results,
+	ChicagoFoodInspectionData.Violations,
+	ChicagoFoodInspectionData.Latitude,
+	ChicagoFoodInspectionData.Longitude,
+	ChicagoFoodInspectionData.Location,
+	ChicagoFoodInspectionData.INSPECTION_DATE_OUT 
+from ChicagoFoodInspectionData</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:ChicagoFoodInspection-part3-input
+Query=select ChicagoFoodInspection...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="File: aka:ChicagoFoodInspection-part3-input|||select ChicagoFoodInspectionData.RecordID,&#xA;	ChicagoFoodInspectionData.[Inspection ID],&#xA;	ChicagoFoodInspectionData.[DBA Name],&#xA;	ChicagoFoodInspectionData.[AKA Name],&#xA;	ChicagoFoodInspectionData.[License #],&#xA;	ChicagoFoodInspectionData.[Facility Type],&#xA;	ChicagoFoodInspectionData.Risk,&#xA;	ChicagoFoodInspectionData.Address,&#xA;	ChicagoFoodInspectionData.City,&#xA;	ChicagoFoodInspectionData.State,&#xA;	ChicagoFoodInspectionData.Zip,&#xA;	ChicagoFoodInspectionData.[Inspection Date],&#xA;	ChicagoFoodInspectionData.[Inspection Type],&#xA;	ChicagoFoodInspectionData.Results,&#xA;	ChicagoFoodInspectionData.Violations,&#xA;	ChicagoFoodInspectionData.Latitude,&#xA;	ChicagoFoodInspectionData.Longitude,&#xA;	ChicagoFoodInspectionData.Location,&#xA;	ChicagoFoodInspectionData.INSPECTION_DATE_OUT &#xA;from ChicagoFoodInspectionData" type="Int32" />
+            <Field name="Inspection ID" source="File: aka:ChicagoFoodInspection-part3-input|||select ChicagoFoodInspectionData.RecordID,&#xA;	ChicagoFoodInspectionData.[Inspection ID],&#xA;	ChicagoFoodInspectionData.[DBA Name],&#xA;	ChicagoFoodInspectionData.[AKA Name],&#xA;	ChicagoFoodInspectionData.[License #],&#xA;	ChicagoFoodInspectionData.[Facility Type],&#xA;	ChicagoFoodInspectionData.Risk,&#xA;	ChicagoFoodInspectionData.Address,&#xA;	ChicagoFoodInspectionData.City,&#xA;	ChicagoFoodInspectionData.State,&#xA;	ChicagoFoodInspectionData.Zip,&#xA;	ChicagoFoodInspectionData.[Inspection Date],&#xA;	ChicagoFoodInspectionData.[Inspection Type],&#xA;	ChicagoFoodInspectionData.Results,&#xA;	ChicagoFoodInspectionData.Violations,&#xA;	ChicagoFoodInspectionData.Latitude,&#xA;	ChicagoFoodInspectionData.Longitude,&#xA;	ChicagoFoodInspectionData.Location,&#xA;	ChicagoFoodInspectionData.INSPECTION_DATE_OUT &#xA;from ChicagoFoodInspectionData" type="Int32" />
+            <Field name="DBA Name" size="79" source="File: aka:ChicagoFoodInspection-part3-input|||select ChicagoFoodInspectionData.RecordID,&#xA;	ChicagoFoodInspectionData.[Inspection ID],&#xA;	ChicagoFoodInspectionData.[DBA Name],&#xA;	ChicagoFoodInspectionData.[AKA Name],&#xA;	ChicagoFoodInspectionData.[License #],&#xA;	ChicagoFoodInspectionData.[Facility Type],&#xA;	ChicagoFoodInspectionData.Risk,&#xA;	ChicagoFoodInspectionData.Address,&#xA;	ChicagoFoodInspectionData.City,&#xA;	ChicagoFoodInspectionData.State,&#xA;	ChicagoFoodInspectionData.Zip,&#xA;	ChicagoFoodInspectionData.[Inspection Date],&#xA;	ChicagoFoodInspectionData.[Inspection Type],&#xA;	ChicagoFoodInspectionData.Results,&#xA;	ChicagoFoodInspectionData.Violations,&#xA;	ChicagoFoodInspectionData.Latitude,&#xA;	ChicagoFoodInspectionData.Longitude,&#xA;	ChicagoFoodInspectionData.Location,&#xA;	ChicagoFoodInspectionData.INSPECTION_DATE_OUT &#xA;from ChicagoFoodInspectionData" type="V_String" />
+            <Field name="AKA Name" size="79" source="File: aka:ChicagoFoodInspection-part3-input|||select ChicagoFoodInspectionData.RecordID,&#xA;	ChicagoFoodInspectionData.[Inspection ID],&#xA;	ChicagoFoodInspectionData.[DBA Name],&#xA;	ChicagoFoodInspectionData.[AKA Name],&#xA;	ChicagoFoodInspectionData.[License #],&#xA;	ChicagoFoodInspectionData.[Facility Type],&#xA;	ChicagoFoodInspectionData.Risk,&#xA;	ChicagoFoodInspectionData.Address,&#xA;	ChicagoFoodInspectionData.City,&#xA;	ChicagoFoodInspectionData.State,&#xA;	ChicagoFoodInspectionData.Zip,&#xA;	ChicagoFoodInspectionData.[Inspection Date],&#xA;	ChicagoFoodInspectionData.[Inspection Type],&#xA;	ChicagoFoodInspectionData.Results,&#xA;	ChicagoFoodInspectionData.Violations,&#xA;	ChicagoFoodInspectionData.Latitude,&#xA;	ChicagoFoodInspectionData.Longitude,&#xA;	ChicagoFoodInspectionData.Location,&#xA;	ChicagoFoodInspectionData.INSPECTION_DATE_OUT &#xA;from ChicagoFoodInspectionData" type="V_String" />
+            <Field name="License #" source="File: aka:ChicagoFoodInspection-part3-input|||select ChicagoFoodInspectionData.RecordID,&#xA;	ChicagoFoodInspectionData.[Inspection ID],&#xA;	ChicagoFoodInspectionData.[DBA Name],&#xA;	ChicagoFoodInspectionData.[AKA Name],&#xA;	ChicagoFoodInspectionData.[License #],&#xA;	ChicagoFoodInspectionData.[Facility Type],&#xA;	ChicagoFoodInspectionData.Risk,&#xA;	ChicagoFoodInspectionData.Address,&#xA;	ChicagoFoodInspectionData.City,&#xA;	ChicagoFoodInspectionData.State,&#xA;	ChicagoFoodInspectionData.Zip,&#xA;	ChicagoFoodInspectionData.[Inspection Date],&#xA;	ChicagoFoodInspectionData.[Inspection Type],&#xA;	ChicagoFoodInspectionData.Results,&#xA;	ChicagoFoodInspectionData.Violations,&#xA;	ChicagoFoodInspectionData.Latitude,&#xA;	ChicagoFoodInspectionData.Longitude,&#xA;	ChicagoFoodInspectionData.Location,&#xA;	ChicagoFoodInspectionData.INSPECTION_DATE_OUT &#xA;from ChicagoFoodInspectionData" type="Int32" />
+            <Field name="Facility Type" size="47" source="File: aka:ChicagoFoodInspection-part3-input|||select ChicagoFoodInspectionData.RecordID,&#xA;	ChicagoFoodInspectionData.[Inspection ID],&#xA;	ChicagoFoodInspectionData.[DBA Name],&#xA;	ChicagoFoodInspectionData.[AKA Name],&#xA;	ChicagoFoodInspectionData.[License #],&#xA;	ChicagoFoodInspectionData.[Facility Type],&#xA;	ChicagoFoodInspectionData.Risk,&#xA;	ChicagoFoodInspectionData.Address,&#xA;	ChicagoFoodInspectionData.City,&#xA;	ChicagoFoodInspectionData.State,&#xA;	ChicagoFoodInspectionData.Zip,&#xA;	ChicagoFoodInspectionData.[Inspection Date],&#xA;	ChicagoFoodInspectionData.[Inspection Type],&#xA;	ChicagoFoodInspectionData.Results,&#xA;	ChicagoFoodInspectionData.Violations,&#xA;	ChicagoFoodInspectionData.Latitude,&#xA;	ChicagoFoodInspectionData.Longitude,&#xA;	ChicagoFoodInspectionData.Location,&#xA;	ChicagoFoodInspectionData.INSPECTION_DATE_OUT &#xA;from ChicagoFoodInspectionData" type="V_String" />
+            <Field name="Risk" size="15" source="File: aka:ChicagoFoodInspection-part3-input|||select ChicagoFoodInspectionData.RecordID,&#xA;	ChicagoFoodInspectionData.[Inspection ID],&#xA;	ChicagoFoodInspectionData.[DBA Name],&#xA;	ChicagoFoodInspectionData.[AKA Name],&#xA;	ChicagoFoodInspectionData.[License #],&#xA;	ChicagoFoodInspectionData.[Facility Type],&#xA;	ChicagoFoodInspectionData.Risk,&#xA;	ChicagoFoodInspectionData.Address,&#xA;	ChicagoFoodInspectionData.City,&#xA;	ChicagoFoodInspectionData.State,&#xA;	ChicagoFoodInspectionData.Zip,&#xA;	ChicagoFoodInspectionData.[Inspection Date],&#xA;	ChicagoFoodInspectionData.[Inspection Type],&#xA;	ChicagoFoodInspectionData.Results,&#xA;	ChicagoFoodInspectionData.Violations,&#xA;	ChicagoFoodInspectionData.Latitude,&#xA;	ChicagoFoodInspectionData.Longitude,&#xA;	ChicagoFoodInspectionData.Location,&#xA;	ChicagoFoodInspectionData.INSPECTION_DATE_OUT &#xA;from ChicagoFoodInspectionData" type="String" />
+            <Field name="Address" size="51" source="File: aka:ChicagoFoodInspection-part3-input|||select ChicagoFoodInspectionData.RecordID,&#xA;	ChicagoFoodInspectionData.[Inspection ID],&#xA;	ChicagoFoodInspectionData.[DBA Name],&#xA;	ChicagoFoodInspectionData.[AKA Name],&#xA;	ChicagoFoodInspectionData.[License #],&#xA;	ChicagoFoodInspectionData.[Facility Type],&#xA;	ChicagoFoodInspectionData.Risk,&#xA;	ChicagoFoodInspectionData.Address,&#xA;	ChicagoFoodInspectionData.City,&#xA;	ChicagoFoodInspectionData.State,&#xA;	ChicagoFoodInspectionData.Zip,&#xA;	ChicagoFoodInspectionData.[Inspection Date],&#xA;	ChicagoFoodInspectionData.[Inspection Type],&#xA;	ChicagoFoodInspectionData.Results,&#xA;	ChicagoFoodInspectionData.Violations,&#xA;	ChicagoFoodInspectionData.Latitude,&#xA;	ChicagoFoodInspectionData.Longitude,&#xA;	ChicagoFoodInspectionData.Location,&#xA;	ChicagoFoodInspectionData.INSPECTION_DATE_OUT &#xA;from ChicagoFoodInspectionData" type="V_String" />
+            <Field name="City" size="20" source="File: aka:ChicagoFoodInspection-part3-input|||select ChicagoFoodInspectionData.RecordID,&#xA;	ChicagoFoodInspectionData.[Inspection ID],&#xA;	ChicagoFoodInspectionData.[DBA Name],&#xA;	ChicagoFoodInspectionData.[AKA Name],&#xA;	ChicagoFoodInspectionData.[License #],&#xA;	ChicagoFoodInspectionData.[Facility Type],&#xA;	ChicagoFoodInspectionData.Risk,&#xA;	ChicagoFoodInspectionData.Address,&#xA;	ChicagoFoodInspectionData.City,&#xA;	ChicagoFoodInspectionData.State,&#xA;	ChicagoFoodInspectionData.Zip,&#xA;	ChicagoFoodInspectionData.[Inspection Date],&#xA;	ChicagoFoodInspectionData.[Inspection Type],&#xA;	ChicagoFoodInspectionData.Results,&#xA;	ChicagoFoodInspectionData.Violations,&#xA;	ChicagoFoodInspectionData.Latitude,&#xA;	ChicagoFoodInspectionData.Longitude,&#xA;	ChicagoFoodInspectionData.Location,&#xA;	ChicagoFoodInspectionData.INSPECTION_DATE_OUT &#xA;from ChicagoFoodInspectionData" type="V_String" />
+            <Field name="State" size="2" source="File: aka:ChicagoFoodInspection-part3-input|||select ChicagoFoodInspectionData.RecordID,&#xA;	ChicagoFoodInspectionData.[Inspection ID],&#xA;	ChicagoFoodInspectionData.[DBA Name],&#xA;	ChicagoFoodInspectionData.[AKA Name],&#xA;	ChicagoFoodInspectionData.[License #],&#xA;	ChicagoFoodInspectionData.[Facility Type],&#xA;	ChicagoFoodInspectionData.Risk,&#xA;	ChicagoFoodInspectionData.Address,&#xA;	ChicagoFoodInspectionData.City,&#xA;	ChicagoFoodInspectionData.State,&#xA;	ChicagoFoodInspectionData.Zip,&#xA;	ChicagoFoodInspectionData.[Inspection Date],&#xA;	ChicagoFoodInspectionData.[Inspection Type],&#xA;	ChicagoFoodInspectionData.Results,&#xA;	ChicagoFoodInspectionData.Violations,&#xA;	ChicagoFoodInspectionData.Latitude,&#xA;	ChicagoFoodInspectionData.Longitude,&#xA;	ChicagoFoodInspectionData.Location,&#xA;	ChicagoFoodInspectionData.INSPECTION_DATE_OUT &#xA;from ChicagoFoodInspectionData" type="String" />
+            <Field name="Zip" source="File: aka:ChicagoFoodInspection-part3-input|||select ChicagoFoodInspectionData.RecordID,&#xA;	ChicagoFoodInspectionData.[Inspection ID],&#xA;	ChicagoFoodInspectionData.[DBA Name],&#xA;	ChicagoFoodInspectionData.[AKA Name],&#xA;	ChicagoFoodInspectionData.[License #],&#xA;	ChicagoFoodInspectionData.[Facility Type],&#xA;	ChicagoFoodInspectionData.Risk,&#xA;	ChicagoFoodInspectionData.Address,&#xA;	ChicagoFoodInspectionData.City,&#xA;	ChicagoFoodInspectionData.State,&#xA;	ChicagoFoodInspectionData.Zip,&#xA;	ChicagoFoodInspectionData.[Inspection Date],&#xA;	ChicagoFoodInspectionData.[Inspection Type],&#xA;	ChicagoFoodInspectionData.Results,&#xA;	ChicagoFoodInspectionData.Violations,&#xA;	ChicagoFoodInspectionData.Latitude,&#xA;	ChicagoFoodInspectionData.Longitude,&#xA;	ChicagoFoodInspectionData.Location,&#xA;	ChicagoFoodInspectionData.INSPECTION_DATE_OUT &#xA;from ChicagoFoodInspectionData" type="Int32" />
+            <Field name="Inspection Date" size="10" source="File: aka:ChicagoFoodInspection-part3-input|||select ChicagoFoodInspectionData.RecordID,&#xA;	ChicagoFoodInspectionData.[Inspection ID],&#xA;	ChicagoFoodInspectionData.[DBA Name],&#xA;	ChicagoFoodInspectionData.[AKA Name],&#xA;	ChicagoFoodInspectionData.[License #],&#xA;	ChicagoFoodInspectionData.[Facility Type],&#xA;	ChicagoFoodInspectionData.Risk,&#xA;	ChicagoFoodInspectionData.Address,&#xA;	ChicagoFoodInspectionData.City,&#xA;	ChicagoFoodInspectionData.State,&#xA;	ChicagoFoodInspectionData.Zip,&#xA;	ChicagoFoodInspectionData.[Inspection Date],&#xA;	ChicagoFoodInspectionData.[Inspection Type],&#xA;	ChicagoFoodInspectionData.Results,&#xA;	ChicagoFoodInspectionData.Violations,&#xA;	ChicagoFoodInspectionData.Latitude,&#xA;	ChicagoFoodInspectionData.Longitude,&#xA;	ChicagoFoodInspectionData.Location,&#xA;	ChicagoFoodInspectionData.INSPECTION_DATE_OUT &#xA;from ChicagoFoodInspectionData" type="String" />
+            <Field name="Inspection Type" size="41" source="File: aka:ChicagoFoodInspection-part3-input|||select ChicagoFoodInspectionData.RecordID,&#xA;	ChicagoFoodInspectionData.[Inspection ID],&#xA;	ChicagoFoodInspectionData.[DBA Name],&#xA;	ChicagoFoodInspectionData.[AKA Name],&#xA;	ChicagoFoodInspectionData.[License #],&#xA;	ChicagoFoodInspectionData.[Facility Type],&#xA;	ChicagoFoodInspectionData.Risk,&#xA;	ChicagoFoodInspectionData.Address,&#xA;	ChicagoFoodInspectionData.City,&#xA;	ChicagoFoodInspectionData.State,&#xA;	ChicagoFoodInspectionData.Zip,&#xA;	ChicagoFoodInspectionData.[Inspection Date],&#xA;	ChicagoFoodInspectionData.[Inspection Type],&#xA;	ChicagoFoodInspectionData.Results,&#xA;	ChicagoFoodInspectionData.Violations,&#xA;	ChicagoFoodInspectionData.Latitude,&#xA;	ChicagoFoodInspectionData.Longitude,&#xA;	ChicagoFoodInspectionData.Location,&#xA;	ChicagoFoodInspectionData.INSPECTION_DATE_OUT &#xA;from ChicagoFoodInspectionData" type="V_String" />
+            <Field name="Results" size="20" source="File: aka:ChicagoFoodInspection-part3-input|||select ChicagoFoodInspectionData.RecordID,&#xA;	ChicagoFoodInspectionData.[Inspection ID],&#xA;	ChicagoFoodInspectionData.[DBA Name],&#xA;	ChicagoFoodInspectionData.[AKA Name],&#xA;	ChicagoFoodInspectionData.[License #],&#xA;	ChicagoFoodInspectionData.[Facility Type],&#xA;	ChicagoFoodInspectionData.Risk,&#xA;	ChicagoFoodInspectionData.Address,&#xA;	ChicagoFoodInspectionData.City,&#xA;	ChicagoFoodInspectionData.State,&#xA;	ChicagoFoodInspectionData.Zip,&#xA;	ChicagoFoodInspectionData.[Inspection Date],&#xA;	ChicagoFoodInspectionData.[Inspection Type],&#xA;	ChicagoFoodInspectionData.Results,&#xA;	ChicagoFoodInspectionData.Violations,&#xA;	ChicagoFoodInspectionData.Latitude,&#xA;	ChicagoFoodInspectionData.Longitude,&#xA;	ChicagoFoodInspectionData.Location,&#xA;	ChicagoFoodInspectionData.INSPECTION_DATE_OUT &#xA;from ChicagoFoodInspectionData" type="V_String" />
+            <Field name="Violations" size="16777216" source="File: aka:ChicagoFoodInspection-part3-input|||select ChicagoFoodInspectionData.RecordID,&#xA;	ChicagoFoodInspectionData.[Inspection ID],&#xA;	ChicagoFoodInspectionData.[DBA Name],&#xA;	ChicagoFoodInspectionData.[AKA Name],&#xA;	ChicagoFoodInspectionData.[License #],&#xA;	ChicagoFoodInspectionData.[Facility Type],&#xA;	ChicagoFoodInspectionData.Risk,&#xA;	ChicagoFoodInspectionData.Address,&#xA;	ChicagoFoodInspectionData.City,&#xA;	ChicagoFoodInspectionData.State,&#xA;	ChicagoFoodInspectionData.Zip,&#xA;	ChicagoFoodInspectionData.[Inspection Date],&#xA;	ChicagoFoodInspectionData.[Inspection Type],&#xA;	ChicagoFoodInspectionData.Results,&#xA;	ChicagoFoodInspectionData.Violations,&#xA;	ChicagoFoodInspectionData.Latitude,&#xA;	ChicagoFoodInspectionData.Longitude,&#xA;	ChicagoFoodInspectionData.Location,&#xA;	ChicagoFoodInspectionData.INSPECTION_DATE_OUT &#xA;from ChicagoFoodInspectionData" type="V_String" />
+            <Field name="Latitude" size="18" source="File: aka:ChicagoFoodInspection-part3-input|||select ChicagoFoodInspectionData.RecordID,&#xA;	ChicagoFoodInspectionData.[Inspection ID],&#xA;	ChicagoFoodInspectionData.[DBA Name],&#xA;	ChicagoFoodInspectionData.[AKA Name],&#xA;	ChicagoFoodInspectionData.[License #],&#xA;	ChicagoFoodInspectionData.[Facility Type],&#xA;	ChicagoFoodInspectionData.Risk,&#xA;	ChicagoFoodInspectionData.Address,&#xA;	ChicagoFoodInspectionData.City,&#xA;	ChicagoFoodInspectionData.State,&#xA;	ChicagoFoodInspectionData.Zip,&#xA;	ChicagoFoodInspectionData.[Inspection Date],&#xA;	ChicagoFoodInspectionData.[Inspection Type],&#xA;	ChicagoFoodInspectionData.Results,&#xA;	ChicagoFoodInspectionData.Violations,&#xA;	ChicagoFoodInspectionData.Latitude,&#xA;	ChicagoFoodInspectionData.Longitude,&#xA;	ChicagoFoodInspectionData.Location,&#xA;	ChicagoFoodInspectionData.INSPECTION_DATE_OUT &#xA;from ChicagoFoodInspectionData" type="String" />
+            <Field name="Longitude" size="18" source="File: aka:ChicagoFoodInspection-part3-input|||select ChicagoFoodInspectionData.RecordID,&#xA;	ChicagoFoodInspectionData.[Inspection ID],&#xA;	ChicagoFoodInspectionData.[DBA Name],&#xA;	ChicagoFoodInspectionData.[AKA Name],&#xA;	ChicagoFoodInspectionData.[License #],&#xA;	ChicagoFoodInspectionData.[Facility Type],&#xA;	ChicagoFoodInspectionData.Risk,&#xA;	ChicagoFoodInspectionData.Address,&#xA;	ChicagoFoodInspectionData.City,&#xA;	ChicagoFoodInspectionData.State,&#xA;	ChicagoFoodInspectionData.Zip,&#xA;	ChicagoFoodInspectionData.[Inspection Date],&#xA;	ChicagoFoodInspectionData.[Inspection Type],&#xA;	ChicagoFoodInspectionData.Results,&#xA;	ChicagoFoodInspectionData.Violations,&#xA;	ChicagoFoodInspectionData.Latitude,&#xA;	ChicagoFoodInspectionData.Longitude,&#xA;	ChicagoFoodInspectionData.Location,&#xA;	ChicagoFoodInspectionData.INSPECTION_DATE_OUT &#xA;from ChicagoFoodInspectionData" type="String" />
+            <Field name="Location" size="40" source="File: aka:ChicagoFoodInspection-part3-input|||select ChicagoFoodInspectionData.RecordID,&#xA;	ChicagoFoodInspectionData.[Inspection ID],&#xA;	ChicagoFoodInspectionData.[DBA Name],&#xA;	ChicagoFoodInspectionData.[AKA Name],&#xA;	ChicagoFoodInspectionData.[License #],&#xA;	ChicagoFoodInspectionData.[Facility Type],&#xA;	ChicagoFoodInspectionData.Risk,&#xA;	ChicagoFoodInspectionData.Address,&#xA;	ChicagoFoodInspectionData.City,&#xA;	ChicagoFoodInspectionData.State,&#xA;	ChicagoFoodInspectionData.Zip,&#xA;	ChicagoFoodInspectionData.[Inspection Date],&#xA;	ChicagoFoodInspectionData.[Inspection Type],&#xA;	ChicagoFoodInspectionData.Results,&#xA;	ChicagoFoodInspectionData.Violations,&#xA;	ChicagoFoodInspectionData.Latitude,&#xA;	ChicagoFoodInspectionData.Longitude,&#xA;	ChicagoFoodInspectionData.Location,&#xA;	ChicagoFoodInspectionData.INSPECTION_DATE_OUT &#xA;from ChicagoFoodInspectionData" type="String" />
+            <Field name="INSPECTION_DATE_OUT" source="File: aka:ChicagoFoodInspection-part3-input|||select ChicagoFoodInspectionData.RecordID,&#xA;	ChicagoFoodInspectionData.[Inspection ID],&#xA;	ChicagoFoodInspectionData.[DBA Name],&#xA;	ChicagoFoodInspectionData.[AKA Name],&#xA;	ChicagoFoodInspectionData.[License #],&#xA;	ChicagoFoodInspectionData.[Facility Type],&#xA;	ChicagoFoodInspectionData.Risk,&#xA;	ChicagoFoodInspectionData.Address,&#xA;	ChicagoFoodInspectionData.City,&#xA;	ChicagoFoodInspectionData.State,&#xA;	ChicagoFoodInspectionData.Zip,&#xA;	ChicagoFoodInspectionData.[Inspection Date],&#xA;	ChicagoFoodInspectionData.[Inspection Type],&#xA;	ChicagoFoodInspectionData.Results,&#xA;	ChicagoFoodInspectionData.Violations,&#xA;	ChicagoFoodInspectionData.Latitude,&#xA;	ChicagoFoodInspectionData.Longitude,&#xA;	ChicagoFoodInspectionData.Location,&#xA;	ChicagoFoodInspectionData.INSPECTION_DATE_OUT &#xA;from ChicagoFoodInspectionData" type="Date" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="209" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="RecordID" selected="True" />
+            <SelectField field="Inspection ID" selected="True" />
+            <SelectField field="DBA Name" selected="True" rename="DBA_Name" />
+            <SelectField field="AKA Name" selected="True" rename="AKA_Name" />
+            <SelectField field="License #" selected="True" />
+            <SelectField field="Facility Type" selected="True" rename="FacilityType" />
+            <SelectField field="Risk" selected="True" />
+            <SelectField field="Address" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Zip" selected="True" />
+            <SelectField field="Inspection Date" selected="True" rename="InspectionDate" />
+            <SelectField field="Inspection Type" selected="True" rename="InspectionType" />
+            <SelectField field="Results" selected="True" />
+            <SelectField field="Violations" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Location" selected="True" />
+            <SelectField field="INSPECTION_DATE_OUT" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="330" y="437" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+            <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkflowDirectory" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFileName" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkflowDirectory = [Engine.WorkflowDirectory]
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="606" y="905" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="InspectionDate" selected="True" />
+            <SelectField field="Violations" selected="True" />
+            <SelectField field="INSPECTION_DATE_OUT" selected="True" />
+            <SelectField field="Inspection_Date_Out" selected="False" rename="InspectionDate" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="749" y="905" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>Violations</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-10-10 01:12:22</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2022-10-10 01:12:22</StartDate>
+              <EndDate>2022-10-10 01:12:22</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Violations])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="870" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Violations</Field>
+          <Delimeters value="|" />
+          <NumFields value="1" />
+          <Flags value="16" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="1001" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Violations</Field>
+          <RegExExpression value="- Comments:" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="# Comments:">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Violations</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Violations_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="1110" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Violations</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Violations</RootName>
+          <Delimeters value="#" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="1218" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Violations1</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Violations1</RootName>
+          <Delimeters value="." />
+          <NumFields value="2" />
+          <Flags value="16" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1470" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Violations" selected="False" />
+            <SelectField field="Violations1" selected="False" />
+            <SelectField field="Violations11" selected="True" rename="ViolationCode" size="10" />
+            <SelectField field="Violations12" selected="True" rename="ViolationDescription" />
+            <SelectField field="Violations2" selected="False" rename="ViolationComment" />
+            <SelectField field="InspectionDate" selected="False" />
+            <SelectField field="Version" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1722" y="882" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>ViolationSK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="1590" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="ViolationCode" />
+            <Field field="ViolationDescription" />
+            <Field field="Version" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="594" y="137" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Address" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Zip" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Location" selected="True" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="DI_WorkflowDirectory" selected="True" />
+            <SelectField field="DI_WorkflowFileName" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="750" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Address" />
+            <Field field="City" />
+            <Field field="State" />
+            <Field field="Zip" />
+            <Field field="Latitude" />
+            <Field field="Longitude" />
+            <Field field="Location" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="917" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>GeoSK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="606" y="257" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DBA_Name" selected="True" />
+            <SelectField field="AKA_Name" selected="True" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="DI_WorkflowDirectory" selected="True" />
+            <SelectField field="DI_WorkflowFileName" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="738" y="257" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="DBA_Name" />
+            <Field field="AKA_Name" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="918" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RestaurantSK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="606" y="377" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="InspectionType" selected="True" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="DI_WorkflowDirectory" selected="True" />
+            <SelectField field="DI_WorkflowFileName" selected="True" />
+            <SelectField field="Inspection_Type" selected="False" rename="InspectionType" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="738" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="InspectionType" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="918" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>InspectionTypeSK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="594" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Results" selected="True" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="DI_WorkflowDirectory" selected="True" />
+            <SelectField field="DI_WorkflowFileName" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="738" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Results" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="918" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>ResultsSK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="606" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Risk" selected="True" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="DI_WorkflowDirectory" selected="True" />
+            <SelectField field="DI_WorkflowFileName" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="738" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Risk" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="918" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RiskSK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="606" y="761" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FacilityType" selected="True" />
+            <SelectField field="Facility_Type" selected="False" rename="FacilityType" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="738" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="FacilityType" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="918" y="750" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>FacilitySK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1062" y="125" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:ChicagoFoodInspection-part3-output|||dbo.Dim_Chicago_Geo</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Append</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:ChicagoFoodInspection-part3-output
+Query=dbo.Dim_Chicago_Geo</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1062" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:ChicagoFoodInspection-part3-output|||dbo.Dim_Chicago_Restaurants</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Append</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:ChicagoFoodInspection-part3-output
+Query=dbo.Dim_Chicago_Restaurants</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1062" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:ChicagoFoodInspection-part3-output|||dbo.Dim_Chicago_FoodInspectionType</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Append</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:ChicagoFoodInspection-part3-output
+Query=dbo.Dim_Chicago_FoodInspecti...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1062" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:ChicagoFoodInspection-part3-output|||dbo.Dim_Chicago_FoodInspectionResults</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Append</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:ChicagoFoodInspection-part3-output
+Query=dbo.Dim_Chicago_FoodInspecti...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1062" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:ChicagoFoodInspection-part3-output|||dbo.Dim_Chicago_FoodRiskCategory</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Append</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:ChicagoFoodInspection-part3-output
+Query=dbo.Dim_Chicago_FoodRiskCate...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1062" y="750" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:ChicagoFoodInspection-part3-output|||dbo.Dim_Chicago_FacilityType</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Append</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:ChicagoFoodInspection-part3-output
+Query=dbo.Dim_Chicago_FacilityType</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1842" y="882" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:ChicagoFoodInspection-part3-output|||dbo.Dim_Chicago_ViolationCodes_SCD</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Append</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:ChicagoFoodInspection-part3-output
+Query=dbo.Dim_Chicago_ViolationCod...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1194" y="161" width="252" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Dim_Chicago_Geo</Text>
+          <Font name="Arial" size="9.75" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1194" y="281" width="252" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Dim_Chicago_Restaurants</Text>
+          <Font name="Arial" size="9.75" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1194" y="402" width="252" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Dim_Chicago_FoodInspectionType</Text>
+          <Font name="Arial" size="9.75" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1194" y="522" width="252" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Dim_Chicago_FoodInspectionResults</Text>
+          <Font name="Arial" size="9.75" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1194" y="654" width="240" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Dim_Chicago_FoodRiskCategory</Text>
+          <Font name="Arial" size="9.75" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1194" y="786" width="180" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Dim_Chicago_FacilityType</Text>
+          <Font name="Arial" size="9.75" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1950" y="882" width="132" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Dim_Chicago_ViolationCodes_SCD</Text>
+          <Font name="Arial" size="9.75" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1362" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="trim([Violations11])" field="Violations11" size="16777216" type="V_String" />
+            <FormulaField expression="trim([Violations12])" field="Violations12" size="16777216" type="V_String" />
+            <FormulaField expression="IF [InspectionDate] &gt;= '2018-07-01'  THEN 'New_Code' ELSE 'Old_Code' ENDIF" field="Version" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Violations11 = trim([Violations11])
+Violations12 = trim([Violations12])
+Version ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Unique" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="True" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Unique" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Unique" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Unique" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Unique" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Unique" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Unique" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Unique" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>ChicagoFoodInspection-part3</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="40c8beeb-a233-4b7c-82d8-3036a311fdb0" />
+      <Telemetry>
+        <PreviousWorkflowId value="949d1592-76bf-477c-91b9-b23b2b57fe9b" />
+        <OriginWorkflowId value="949d1592-76bf-477c-91b9-b23b2b57fe9b" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
